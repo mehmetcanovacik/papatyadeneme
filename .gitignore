@@ -1,6 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
 
-# .v4p backup files
-*~.xml
+# Telethon session cache
+*.session
+*.session-journal
 
-# Dynamic plugins .dll
-bin/
+# Config
+data/bot_conf.yaml
+
+# Logs
+logs/
+
+# Virtual envirment
+venv/
+
+.vscode/
+.idea/
