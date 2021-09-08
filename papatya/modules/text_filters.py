@@ -24,8 +24,6 @@ SOFTWARE.
 """
 
 
-from pyrogram import filters
-
 from DaisyX.db.mongo_helpers.filterdb import (
     delete_filter,
     get_filter,
@@ -34,6 +32,7 @@ from DaisyX.db.mongo_helpers.filterdb import (
 )
 from DaisyX.function.pluginhelpers import member_permissions
 from DaisyX.services.pyrogram import pbot as app
+from pyrogram import filters
 
 # Original file >> https://github.com/TheHamkerCat/WilliamButcherBot/blob/dev/wbb/modules/filters.py
 

@@ -22,7 +22,6 @@
 import itertools
 
 from aiogram.types.chat_permissions import ChatPermissions
-
 from DaisyX import bot
 from DaisyX.decorator import register
 
